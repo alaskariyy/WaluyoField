@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <id.medigo.waluyofield.WaluyoTextView
+        android:id="@+id/ctv_header_label"
+        style="@style/Title.White"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@color/colorAccent"
+        android:text="@string/app_name"/>
+
+    <id.medigo.waluyofield.WaluyoDatePicker
+        android:id="@+id/wdp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"/>
+
+    <View
+        android:id="@+id/div"
+        style="@style/DividerLine"/>
+
+    <Button
+        android:id="@+id/btn_finish"
+        style="@style/Button.Transparent"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/btn_finish"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+</LinearLayout>
